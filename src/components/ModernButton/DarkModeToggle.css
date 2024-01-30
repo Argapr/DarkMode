@@ -1,0 +1,21 @@
+/* DarkModeToggle.css */
+.dark-mode-toggle {
+  margin: 15px;
+}
+
+.dark-mode-toggle label {
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.toggle-image {
+  width: 25px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+  height: auto;
+  cursor: pointer;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
